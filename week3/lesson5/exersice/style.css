@@ -1,0 +1,143 @@
+*{
+    margin: 0;         /*reset all padding and margin*/
+    padding: 0;
+}
+header{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;               /*setting header*/
+    background-position:center;
+    height: 600px;
+	font-family: 'Lora', SansSerif;
+    margin: auto;
+}
+
+.bigheader{
+	color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;              /*big  title at the top of the page */
+    height: 30%;
+    margin: auto;
+    text-align: center;   
+	font-size: 68px
+}
+.smallheader{
+	font-style: italic;  /*setting small tittle */
+	margin: 10px;
+	font-size: 23px;
+}
+
+
+.menu{
+    padding: 20px;
+    position: relative;
+}
+.logo{
+    font-size: 40px;           /* bar setting */ 
+    color: white;
+}
+.nav{
+    padding-right: inherit;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.nav li{
+    color: white;
+    display: inline;
+    margin: 15px;
+    cursor: pointer;
+}
+
+
+#active{
+    border: 1px solid white; /*TAKE ACTION setting active and hover  */
+    border-radius: 100px;
+    padding: 10px 15px;
+}
+#active:hover{
+    color: black;
+    background: white;
+    transition: 0.3s;
+
+}
+
+
+#lm{
+    color: white;
+    background: rgb(54, 179, 168); /* learn more setting  and hover */
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+}
+#lm:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+
+/* middle */
+.text{
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;                   /*setting middle font */
+    margin-bottom: 125px;
+}
+.title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight:bold;
+    text-align: center;                    /* middle tittle */
+    margin: 100px 125px;
+	line-height: 36px;
+}
+.paragraph{
+	width: 60%;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif; /* middle paragraPH*/
+	margin-bottom: 125px;
+    text-align: center;
+    margin-top: 12px;
+	margin-left: 20%;
+	line-height: 36px;
+}
+.image_content li{
+	font-family: 'Open Sans', sans-serif; /* img setting*/
+    width: 49%;
+    display: inline-table;
+}
+.image_content img{
+    width: 100%;
+}
+.describe{
+	font-family: 'Open Sans', sans-serif; /*img describe */
+    text-align: center;
+    line-height: 36px;
+}
+.caption{
+	font-family: 'Open Sans', sans-serif;  /*IMG  caption */
+    font-size: 20px;
+    margin: 24px auto;
+    text-align: center;
+    color: rgb(61, 153, 145);
+}
+.box{
+	padding: 20px;
+}
+/* footer */
+footer{
+	color: white;
+	background: black;
+	font-family: sans-serif;  /*footer setting */
+    text-align: center;
+    padding: 75px;
+}
+.fistline{
+	font-family: 'Raleway', sans-serif;
+}
