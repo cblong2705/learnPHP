@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exersice 4</title>
+	<meta charset= utf-8>
+	<style>
+		body{
+			width: 50%;
+			 margin: auto;
+		 	padding: auto;
+		}
+		 div{
+		 	background-color: #F2F2F2;
+		 	margin: 5px;
+			padding: 5px;
+			line-height: 10px;
+		}
+		input[type=text] {
+    
+
+			width: 100%;
+			height: 25px;
+			border-radius: 5px;
+			border: 1.5px solid #D8D8D8;
+			margin: 5px;
+
+		}
+		.center{
+			width: 46%;
+			 margin: auto;
+		}
+		 .submitwhite{
+		    color: black;
+    		font-size: 15px;
+    		font-weight: 200;
+	    	background: white;
+	   		padding: 5px 15px;
+	   		border: 1.5px solid #D8D8D8;
+	   		border-radius: 3px;
+	   	}
+	   	.submitblue{
+		    color: white;
+    		font-size: 15px;
+    		font-weight: 200;
+	    	background: lightblue;
+	   		padding: 5px 15px;
+	   		border: 1.5px solid #D8D8D8;
+	   		border-radius: 3px;
+	   	}
+	   	.textarea {width: 100%;
+	   		border-radius: 5px;
+			border: 1.5px solid #D8D8D8;
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<h2 style="text-align: center";> Đăng ký thành viên </h2>
+	<p>Để đăng ký thành viên cần khai báo tất cả các ô trống dưới đây </p>
+	<form>
+		<div>
+ 			<input  type="text" id="fname" name="fname" placeholder="Họ và tên đệm"><br>
+  			<input  type="text" id="lname" name="lname" placeholder="Tên"><br>
+			<input  type="text" id="id" name="id" placeholder="Tên đăng nhập"><br>
+ 			<input  type="text" id="email" name="email" placeholder="email" ><br>
+ 			<input  type="text" id="password" name="password" placeholder="Mật khẩu"><br>
+  			<input  type="text" id="password" name="password" placeholder="Nhập lại mật khẩu">
+  		</div>
+  		<div class="center"><p><b>Giới tính :</b> 
+  			<input type="radio" id="N/A" name="gender" value="N/A">
+  			<label >N/A</label>
+ 	 		<input type="radio" id="Nam" name="gender" value="Nam">
+  			<label > Nam</label> 
+ 			<input type="radio" id="Nữ" name="gender" value="Nữ">
+  			<label >Nữ</label></p>
+		</div>
+		<div>
+			<input  type="text" id="datetime" name="date" placeholder="Ngày tháng năm sinh">
+			<textarea class="textarea" name="" id="" cols="55" rows="5" placeholder="Chuữ ký"></textarea><br>
+			<input  type="text" id="question" name="question" placeholder="Câu hỏi bảo mật">
+			<input   type="text" id="anser" name="anser" placeholder="Câu trả lời" >
+		</div>
+		<div class= " center">
+			<input type="checkbox" id="condition" name="condition" value="yes">
+  			<label for="condition"> Tôi đồng ý với</label>
+  			<input type="buttom" value="quy định đăng ký thành viên"><br>
+  		</div>
+  		<div class="center">
+  			<input class="submitwhite" type="submit" value="Thiết lập lại">
+  			<input class="submitblue" type="submit" value="Đăng ký thành viên" >
+		</div>
+	</form>
+</div>
+</body>
+</html>
