@@ -1,0 +1,46 @@
+body{
+	width: 50%;
+	margin: auto;
+	padding: auto;
+}
+div{
+	background-color: #F2F2F2;
+	margin: 5px;
+	padding: 5px;
+	line-height: 10px;
+}
+input[type=text] {
+	width: 98%;
+	height: 25px;
+	border-radius: 5px;
+	border: 1.5px solid #D8D8D8;
+	margin: 5px;
+}
+.center{
+	width: 46%;
+	margin: auto;
+}
+.submitwhite{
+	color: black;
+    font-size: 15px;
+    font-weight: 200;
+	background: white;
+	padding: 5px 15px;
+	border: 1.5px solid #D8D8D8;
+	border-radius: 3px;
+}
+.submitblue{
+	color: white;
+    font-size: 15px;
+    font-weight: 200;
+	background: lightblue;
+	padding: 5px 15px;
+	border: 1.5px solid #D8D8D8;
+	border-radius: 3px;
+}
+textarea {
+	width: 98%;
+	order-radius: 5px;
+	border: 1.5px solid #D8D8D8;
+	margin: 5px;
+}

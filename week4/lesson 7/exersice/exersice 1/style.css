@@ -21,7 +21,7 @@ body{
 .bold{
 	font-weight:bold;
 }
-.btn-top{
+.button-top{
 	margin-top:15px; 
 	padding:10px;
 	color:white;
@@ -30,7 +30,7 @@ body{
 	font-size: 14px;
 	border-radius: 12px;
 }
-.btn-top:hover{
+.button-top:hover{
 	background-color: black;
 	color:white;
 	transition: 0.5;
@@ -57,7 +57,7 @@ hr {
 	margin-bottom: 10px
 
 }
-.btn-bottom{
+.button-bottom{
 	margin-top:15px; 
 	padding:10px;
 	color:white;
@@ -67,7 +67,7 @@ hr {
 	border-radius: 12px;
 
 }
-.btn-bottom:hover{
+.button-bottom:hover{
 	background-color: black;
 	color:white;
 	transition: 0.5;
