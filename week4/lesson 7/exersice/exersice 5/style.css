@@ -1,7 +1,7 @@
-body{
-	margin: auto;
-	width: 1000px;
-	height: 460px;
+.container{
+	margin:0 12% ;
+	width: 60%px;
+	height: 36%px;
 	border: 10px solid #084B8A;
 	color: #0489B1;
 

@@ -1,4 +1,4 @@
-body{
+.container{
 	width: 80%;
 	padding: auto;
 	margin: auto;
@@ -10,6 +10,9 @@ body{
 	font-size: 45px;
 	color:#FAE128;
 	}
-	table{
-		padding: 20px;
-	}
+table{
+	padding: 20px;
+}
+.content{
+	margin: 20px;
+}

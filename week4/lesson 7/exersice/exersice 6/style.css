@@ -1,0 +1,48 @@
+.container{
+    color:black;
+    width:28%;
+    margin:auto;
+    border: 10px solid #04538b;;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size:16px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.separator{
+    text-align: center;
+    border-bottom: 1px solid #c7adad;
+    line-height: 0.1em;
+    margin: 15px 0 15px;
+    color: #b9a9a9;
+}
+.separator span{
+    background:#fff;
+    padding: 1px 10px;
+}
+.quick-login{
+    width: 30%;
+    margin: 20px 0px;
+}
+.inline {
+    display: flex;
+    padding: 14px 1px;
+}
+.login{
+    text-align: left;
+    font-size: 15px;
+    color: #0080FF;
+}
+.box{
+    margin-bottom: 20px;
+    border: 1px solid #D8D8D8;
+    box-sizing: 15px;
+    border-radius: 3px;
+    width: 100%;
+    height: 35px;
+    background-color: #FAFAFA
+}
+.inline span {
+    width: 24%;
+}
