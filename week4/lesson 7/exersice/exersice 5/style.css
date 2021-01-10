@@ -1,18 +1,18 @@
 .container{
 	margin:0 12% ;
-	width: 60%px;
-	height: 36%px;
+	width: 60%;
+	height: 36%;
 	border: 10px solid #084B8A;
 	color: #0489B1;
 
 }
 .img{
-	width: 600px;
-	height: 435px;
+	width: 95%;
+	height: 95%;
 	padding: 10px;
 }
 .box{
-	width: 320px;
+	width: 170%;
     height: 30px;
     margin: 5px;
 
@@ -33,17 +33,60 @@
 	color: white;
 }
 .form{
-	margin-bottom: 35px;
+	width: 80%;
 	margin-top: 20px;
 }
 
-input[type=submit]{
+.container input{
 	margin: 20px 0px;
 	background: green;
 	color:white;
 	height: 40px;
-	width: 320px;
+	width: auto;
+}
+.container button{
+	width: 140%;
+	height: auto;
 }
 h1{
 	margin-bottom: 30px;
+}
+@media only screen and (max-width: 46.1875em)
+{	
+
+	img{
+		display: none;
+	}
+	.content{
+		display: none;
+	}
+	.container button{
+	width: 100%;
+	height: auto;
+	}
+	.form input{
+	width: 100%;
+	}
+	.form{
+		width: 100%;
+	}
+
+}
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em)
+{
+	.img{
+		width: 75%;
+	height: 75%;
+	padding: 10px;
+	}
+	.form input{
+		width: auto;
+	}
+	.content{
+		display: none;
+	}
+	.container button{
+	width: 100%;
+	height: auto;
+	}
 }

@@ -46,3 +46,11 @@
 .inline span {
     width: 24%;
 }
+@media only screen and (max-width: 63.9375em)
+{
+    .container{
+        width: 100%;
+        margin:auto;
+        font-size: 23px;
+    }
+}
