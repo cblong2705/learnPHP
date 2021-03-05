@@ -9,12 +9,12 @@ header{
     background-size: cover;
     object-fit: cover;               /*setting header*/
     background-position:center;
-    height: 600px;
+    height: 700px;
 	font-family: 'Lora', SansSerif;
     margin: auto;
 }
 
-.bigheader{
+.bigtittle{
 	color: white;
     position: absolute;
     top: 0;
@@ -27,7 +27,7 @@ header{
     text-align: center;   
 	font-size: 68px
 }
-.smallheader{
+.smalltittle{
 	font-style: italic;  /*setting small tittle */
 	margin: 10px;
 	font-size: 23px;
@@ -69,14 +69,14 @@ header{
 }
 
 
-#lm{
+#learnmore{
     color: white;
     background: rgb(54, 179, 168); /* learn more setting  and hover */
     padding: 15px;
     border: none;
     border-radius: 20px;
 }
-#lm:hover{
+#learnmore:hover{
     opacity: 0.6;
     cursor: pointer;
 }
@@ -109,7 +109,8 @@ header{
 }
 .image_content li{
 	font-family: 'Open Sans', sans-serif; /* img setting*/
-    width: 49%;
+    width: 45%;
+	text-align: center;
     display: inline-table;
 }
 .image_content img{

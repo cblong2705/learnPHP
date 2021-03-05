@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>exercise 4</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../../bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mb-4">
+			<div class="col-5">
+				<select id="images">
+					<option value="1">image 1</option>
+					<option value="2">image 2</option>
+					<option value="3">image 3</option>
+					<option value="4">image 4</option>
+				</select>
+			</div>
+			<div class="col-6">
+				<button class="btn btn-success" type="submit" onclick="click()">Change Image</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<img src="img/1.jpg" id="imgval">
+			</div>
+		</div>
+		<script type="text/javascript">
+			function click() {
+				var get = document.getElementById('images').value;
+				var change = document.getElementById('imgval');
+				switch (get){
+					case "1":
+						change.src = 'img/1.jpg';
+						break;
+					case "2": 
+						change.src = 'img/2.jpg';
+						break;
+					case "3":
+						change.src = 'img/3.jpg';
+						break;
+					case "4":
+						change.src = 'img/4.jpg';
+						break;
+				}
+			}
+		</script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exersice 2</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+        <h2>Giải phương trình bậc nhất :</h2>
+        <p>1st Number: </p>
+        <input name="fist-number" type="text" id="firstNumber" required><br><br>     
+        <p>2nd Number: </p>
+        <input name="second-number" type="text" id="secondNumber" required> 
+        <input type="button" value="Tìm x" onclick="result()">
+        <p id="inner"></p>
+    <script type="text/javascript">
+    function result(){
+    	var a = document.getElementById("firstNumber").value;
+        var b = document.getElementById("secondNumber").value;
+        var c = -b/a;
+         if(a == ""|| isNaN(a)){
+             alert('không được để trống và phải nhập số');
+             return false;
+         }
+         else if(b == "" || isNaN(b)){
+             alert('không được để trống và phải nhập số');
+             return false;
+         }
+         else{
+             document.getElementById('inner').innerHTML = 'x = ' + c;
+         }
+        }
+    </script>
+</body>
+</html>

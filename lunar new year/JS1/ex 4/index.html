@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exersice 4</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+	<h2>Mời nhập A :</h2>
+	<input name="fist-number" type="text" id="Number" required><br><br>
+	<input type="button" value="Kiểm tra" onclick="result()">
+    <p id="inner"></p>
+    <script type="text/javascript">
+    function result(){
+    	var a = document.getElementById("Number").value;
+        var i;
+        var s =1;
+        for (i = 1; i <= a; i++)
+            {
+                s = s* i;
+            }
+        document.getElementById('inner').innerHTML ='giai thừa của  a là ' + s;
+        }
+    </script>
+</body>
+</html>

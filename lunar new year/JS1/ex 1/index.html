@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exersice 1</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+	<h2>Mời nhập số :</h2>
+	<input name="fist-number" type="text" id="Number" required><br>
+	<input type="button" value="Kiểm tra" onclick="result()">
+    <p id="inner"></p>
+    <script type="text/javascript">
+    function result(){
+    	var a = document.getElementById("Number").value;
+         if(a == ""|| isNaN(a)){
+             alert('không được để trống và phải nhập số');
+             return false;
+         }
+         else if((a  >= 1 && a <= 10) && ( a  >= 50 && a <= 100)){
+              document.getElementById('inner').innerHTML =a + ' nằm trong khoảng từ 1 - 10 hoặc 50 - 100 ';
+         }
+         else{
+             document.getElementById('inner').innerHTML =a +' không nằm trong khoảng từ 1 - 10 hoặc 50 - 100';
+         }
+        }
+    </script>
+</body>
+</html>

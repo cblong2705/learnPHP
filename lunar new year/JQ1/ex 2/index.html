@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 2</title>
+    <link rel="stylesheet" href="../../bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  
+</head>
+<body>
+        <h2>Số chẵn lẻ :</h2>
+        <form action="#">
+            <label>Nhập số a: </label>
+            <input type="number" name="number" id="number"><br>
+            <button type="button" onclick="get()" class="btn btn-success text-white ">Kết quả</button>
+        </form>
+        <p id="odd"></p>
+        <p id="even"></p>
+      <script src="script.js">
+        function get() {
+            var number = $('#number').val();
+            var even ='';
+            var odd ='';
+            if(number==''){
+                    $("#odd").text('Dữ liệu không hợp lệ').css('color','red');
+                }
+                else{
+                    for(var i=1;i<=number;i++){
+                            if (i%2==0){
+                                even+=i+',';
+                             }
+                             else{
+                                odd+=i+',';
+                             }
+                         }
+                        $("#odd").html('Các số chẵn từ 1-'+number+': '+even+'<br>Các số lẻ 1-'+number+': '+odd);
+                    }
+            
+                }
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exersice 3</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+        <h2>Tìm Max Min :</h2>
+        <p>1st Number: </p>
+        <input name="fist-number" type="text" id="firstNumber" required><br>     
+        <p>2nd Number: </p>
+        <input name="second-number" type="text" id="secondNumber" required><br>
+        <p>3rd Number:</p>
+        <input name="third-number" type="text" id="thirdNumber" required><br><br>
+        <input type="button" value="Hiển thi max - min" onclick="result()">
+        <p id="inner"></p>
+    <script type="text/javascript">
+    function result(){
+        var a = document.getElementById("firstNumber").value;
+        var b = document.getElementById("secondNumber").value;
+        var c = document.getElementById("thirdNumber").value;
+        var max = Math.max(a, b, c);
+        var min = Math.min(a, b, c);
+        document.getElementById('inner').innerHTML =('số nhỏ nhất là ' + min) && ('số lớn nhất là ' + max);
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exersice 1</title>
+        <meta charset="utf-8">
+        <style>
+            label{
+                display: block;
+            }
+        </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    </head>
+    <body>
+        <h1>Diện tích và chu vi hình chữ nhật</h1>
+        
+        <label for="len">chiều dài:
+            <input type="Number" id="len"  min="1">
+        </label><br>
+        <label for="wid">chiều rộng:
+            <input type="Number" id="wid"  min="1">
+        </label><br>
+        <button id="calculate">Tính chu vi và diện tích</button>
+        <h2 id="area"></h2>
+        <h2 id="perimeter"></h2>
+        <script>
+         $(document).ready(function () {
+            $("body").append("<p></p>");
+            $("#calculate").click(function () {
+                var len=$("#len").val();
+                var wid=$("#wid").val();
+                if(len==''||wid==''){
+                    $("p").text("Vui lòng nhập đầy đủ dữ liệu").css("color","red");
+                }else{
+                    $("p").html("<p>Chu vi là: "+(parseFloat(len)+parseFloat(wid))*2+"<br> Diện tích là: "+(parseFloat(len)*parseFloat(wid))+"</p>").css("color","black");
+                }
+            });
+     });
+        </script>
+    </body>
+</html>
